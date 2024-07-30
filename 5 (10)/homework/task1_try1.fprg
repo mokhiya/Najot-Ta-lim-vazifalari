@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 07:24:15 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjo0Nzo0NiAiOzI5NjQ="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNzoyNDoxNSAiOzE7MzA2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number" type="String" array="False" size=""/>
+            <output expression="&quot;Enter a natural number: &quot;" newline="True"/>
+            <input variable="Number"/>
+            <declare name="NumberInt" type="Integer" array="False" size=""/>
+            <declare name="NumberList" type="String" array="True" size="Number"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="Count0" type="Integer" array="False" size=""/>
+            <declare name="Count1" type="Integer" array="False" size=""/>
+            <declare name="Count2" type="Integer" array="False" size=""/>
+            <declare name="Count3" type="Integer" array="False" size=""/>
+            <declare name="Count4" type="Integer" array="False" size=""/>
+            <declare name="Count5" type="Integer" array="False" size=""/>
+            <declare name="Count6" type="Integer" array="False" size=""/>
+            <declare name="Count7" type="Integer" array="False" size=""/>
+            <declare name="Count8" type="Integer" array="False" size=""/>
+            <declare name="Count9" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="len(Number)" direction="inc" step="1">
+                <if expression="NumberList[i] == &quot;0&quot;">
+                    <then>
+                        <assign variable="Count0" expression="Count0 + 1"/>
+                    </then>
+                    <else>
+                        <if expression="NumberList[i] == &quot;1&quot;">
+                            <then>
+                                <assign variable="Count1" expression="Count1 + 1"/>
+                            </then>
+                            <else>
+                                <if expression="NumberList[i] == &quot;2&quot;">
+                                    <then>
+                                        <assign variable="Count2" expression="Count2 + 1"/>
+                                    </then>
+                                    <else>
+                                        <if expression="NumberList[i] == &quot;3&quot;">
+                                            <then>
+                                                <assign variable="Count3" expression="Count3 + 1"/>
+                                            </then>
+                                            <else>
+                                                <if expression="NumberList[i] == &quot;4&quot;">
+                                                    <then>
+                                                        <assign variable="Count4" expression="Count4 + 1"/>
+                                                    </then>
+                                                    <else>
+                                                        <if expression="NumberList[i] == &quot;5&quot;">
+                                                            <then>
+                                                                <assign variable="Count5" expression="Count5 + 1"/>
+                                                            </then>
+                                                            <else>
+                                                                <if expression="NumberList[i] == &quot;6&quot;">
+                                                                    <then>
+                                                                        <assign variable="Count6" expression="Count6 + 1"/>
+                                                                    </then>
+                                                                    <else>
+                                                                        <if expression="NumberList[i] == &quot;7&quot;">
+                                                                            <then>
+                                                                                <assign variable="Count7" expression="Count7 + 1"/>
+                                                                            </then>
+                                                                            <else>
+                                                                                <if expression="NumberList[i] == &quot;8&quot;">
+                                                                                    <then>
+                                                                                        <assign variable="Count8" expression="Count8 + 1"/>
+                                                                                    </then>
+                                                                                    <else>
+                                                                                        <if expression="NumberList[i] == &quot;9&quot;">
+                                                                                            <then>
+                                                                                                <assign variable="Count9" expression="Count9 + 1"/>
+                                                                                            </then>
+                                                                                            <else/>
+                                                                                        </if>
+                                                                                    </else>
+                                                                                </if>
+                                                                            </else>
+                                                                        </if>
+                                                                    </else>
+                                                                </if>
+                                                            </else>
+                                                        </if>
+                                                    </else>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;digit 0 used &quot; &amp; Count0 &amp; &quot; digit 1 used &quot; &amp; Count1 &amp; &quot; digit 2 used &quot; &amp; Count2 &amp; &quot; digit 3 used &quot; &amp; Count3 &amp; &quot; digit 4 used &quot; &amp; Count4 &amp;  &quot; digit 5 used &quot; &amp; Count5 &amp; &quot; digit 6 used &quot; &amp; Count6 &amp; &quot; digit 7 used &quot; &amp; Count7 &amp; &quot; digit 8 used &quot; &amp; Count8 &amp; &quot; digit 9 used &quot; &amp; Count9" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

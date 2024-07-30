@@ -1,0 +1,67 @@
+[
+    {
+        "full_name": "Mm",
+        "email": "m@gmail.com",
+        "password": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+        "is_login": false
+    },
+    {
+        "full_name": "Mohi",
+        "email": "mm@gmail.com",
+        "password": "11",
+        "is_login": false,
+        "orders": [],
+        "user_password": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8"
+    },
+    {
+        "full_name": "Mm",
+        "email": "lola@gmail.com",
+        "password": "c6f3ac57944a531490cd39902d0f777715fd005efac9a30622d5f5205e7f6894",
+        "is_login": false,
+        "orders": [
+            {
+                "name": "Honda",
+                "model": "Accord",
+                "year": 2024,
+                "price": 45000,
+                "user_email": "lola@gmail.com"
+            }
+        ]
+    },
+    {
+        "full_name": "Mohi",
+        "email": "mohi@gmail.com",
+        "password": "cbfad02f9ed2a8d1e08d8f74f5303e9eb93637d47f82ab6f1c15871cf8dd0481",
+        "is_login": false,
+        "orders": [
+            {
+                "name": "Honda",
+                "model": "Accord",
+                "year": 2024,
+                "price": 45000,
+                "user_email": "mohi@gmail.com"
+            },
+            {
+                "name": "Ford",
+                "model": "Mustang",
+                "year": 2022,
+                "price": 35000,
+                "user_email": "mohi@gmail.com"
+            },
+            {
+                "name": "Toyota",
+                "model": "Camry",
+                "year": 2023,
+                "price": 25000,
+                "user_email": "mohi@gmail.com"
+            }
+        ]
+    },
+    {
+        "full_name": "mm",
+        "student_id": "12",
+        "student_password": "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918",
+        "is_login": false,
+        "coin": 100
+    }
+]

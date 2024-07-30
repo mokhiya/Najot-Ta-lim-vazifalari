@@ -1,0 +1,28 @@
+[
+    {
+        "Radius": 5.0,
+        "Area": "The area of the circle is: 78.5",
+        "Perimeter": "The perimeter of the circle is: 31.400000000000002"
+    },
+    {
+        "Radius": 6.0,
+        "Area": "The area of the circle is: 113.04",
+        "Perimeter": "The perimeter of the circle is: 37.68"
+    },
+    {
+        "Radius": 6.0,
+        "Area": "The area of the circle is: 113.04",
+        "Perimeter": "The perimeter of the circle is: 37.68"
+    },
+    {
+        "a": 4.0,
+        "b": 5.0,
+        "Perimetr": "The perimetr of the rectagle is: 18.0",
+        "Area": "The area of the rectangle is: 20.0"
+    },
+    {
+        "Radius": 5.0,
+        "Area": "The area of the circle is: 78.5",
+        "Perimeter": "The perimeter of the circle is: 31.400000000000002"
+    }
+]

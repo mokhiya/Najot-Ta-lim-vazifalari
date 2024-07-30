@@ -1,0 +1,74 @@
+[
+    {
+        "Name": "Atomic habits",
+        "Price": 25000,
+        "Type": "Book",
+        "Pages": 220
+    },
+    {
+        "Name": "Atomic habits",
+        "Price": 25000,
+        "Type": "Book",
+        "Pages": 220
+    },
+    {
+        "Name": "T-shirt",
+        "Price": 45000,
+        "Type": "Clothing",
+        "Color": "white"
+    },
+    {
+        "Name": "Alchemic",
+        "Price": 30000,
+        "Type": "Book",
+        "Pages": 250
+    },
+    {
+        "Name": "T-shirt",
+        "Price": 25000,
+        "Type": "Clothing",
+        "Color": "blue"
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    },
+    {
+        "Name": "Phone",
+        "Price": 1200000,
+        "Type": "Electronics",
+        "Made_in": "China",
+        "Year": 2021
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "python": {
+        "price": "2500",
+        "teacher_phone_number": "5565"
+    },
+    "math": {
+        "price": "5600",
+        "teacher_phone_number": "5565"
+    }
+}

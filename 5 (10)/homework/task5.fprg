@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 06:15:57 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNToyMToyNCAiOzI5NTE="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjoxNTo1NyAiOzE7MzA2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number" type="Integer" array="False" size=""/>
+            <declare name="NumberString" type="String" array="False" size=""/>
+            <declare name="ReversedNumber" type="String" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <declare name="Length" type="Integer" array="False" size=""/>
+            <input variable="Number"/>
+            <for variable="Number" start="0" end="100" direction="inc" step="1">
+                <assign variable="NumberString" expression="Number"/>
+                <assign variable="ReversedNumbers" expression="&quot; &quot;"/>
+                <assign variable="Length" expression="0"/>
+                <while expression="numberAsString[length] &lt;&gt; '\0'"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

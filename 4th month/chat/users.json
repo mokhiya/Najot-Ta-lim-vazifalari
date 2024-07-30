@@ -1,0 +1,46 @@
+[
+    {
+        "full_name": "Mohi",
+        "username": "Bunny",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "is_login": false,
+        "created_chats": [],
+        "joined_chats": []
+    },
+    {
+        "full_name": "Mohi",
+        "username": "Mohi",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "created_chats": [],
+        "joined_chats": []
+    },
+    {
+        "full_name": "Lola",
+        "username": "Lola",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "created_chats": [],
+        "joined_chats": []
+    },
+    {
+        "creator": "Lola",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "code": 6598,
+        "members": [
+            "Lola"
+        ]
+    },
+    {
+        "full_name": "Mohi",
+        "username": "Mohi",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "created_chats": [],
+        "joined_chats": []
+    },
+    {
+        "full_name": "Lola",
+        "username": "Lol",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "created_chats": [],
+        "joined_chats": []
+    }
+]

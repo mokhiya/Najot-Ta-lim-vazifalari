@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 06:24:52 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjoxNjowMSAiOzI5NTE="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjoyNDo1MiAiOzE7MzA2NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Multiplication table: &quot;" newline="True"/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <declare name="Result" type="Integer" array="False" size=""/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="number" start="1" end="9" direction="inc" step="1">
+                <output expression="&quot;Multiplication for &quot; &amp; number" newline="True"/>
+                <for variable="n" start="1" end="9" direction="inc" step="1">
+                    <assign variable="result" expression="number * n"/>
+                    <output expression="number &amp; &quot; * &quot; &amp; n &amp; &quot; = &quot; &amp; Result" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 08:06:14 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIxMDozOTo0OCAiOzI5NjI="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwODowNjoxNCAiOzQ7MzA2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="chars" type="String" array="False" size=""/>
+            <declare name="Numbers" type="Integer" array="False" size=""/>
+            <declare name="number" type="String" array="False" size=""/>
+            <declare name="UniqueNumbers" type="Integer" array="False" size=""/>
+            <declare name="counter" type="String" array="False" size=""/>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a natural number: &quot;" newline="True"/>
+            <input variable="number"/>
+            <for variable="chars" start="0" end="number" direction="inc" step="1">
+                <assign variable="numbers" expression="chars"/>
+                <for variable="num" start="0" end="numbers" direction="inc" step="1">
+                    <if expression="num != UniqueNumbers">
+                        <then>
+                            <assign variable="UniqueNumbers" expression="num"/>
+                            <assign variable="counter" expression="counter + 1"/>
+                        </then>
+                        <else>
+                            <assign variable="num" expression="UniqueNumbers"/>
+                        </else>
+                    </if>
+                    <for variable="i" start="0" end="UniqueNumbers - 1" direction="inc" step="1">
+                        <output expression="UniqueNumbers[i] &amp; &quot;occures &quot; &amp; counter[i] &amp; &quot;times&quot;" newline="True"/>
+                    </for>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

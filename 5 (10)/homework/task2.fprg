@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 06:33:54 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjoyNjozNSAiOzI5NTk="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNjozMzo1NCAiOzE7MzA2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distance" type="Real" array="False" size=""/>
+            <declare name="SM" type="Real" array="False" size=""/>
+            <declare name="DM" type="Real" array="False" size=""/>
+            <declare name="M" type="Real" array="False" size=""/>
+            <declare name="KM" type="Real" array="False" size=""/>
+            <output expression="&quot;Please, enter a distance in mm: &quot;" newline="True"/>
+            <input variable="Distance"/>
+            <assign variable="SM" expression="Distance / 10"/>
+            <assign variable="DM" expression="Distance / 100"/>
+            <assign variable="M" expression="Distance / 1000"/>
+            <assign variable="KM" expression="Distance / 1000000"/>
+            <output expression="&quot;Your number in &gt;&gt;&gt; mm: &quot; &amp; distance &amp; &quot; sm: &quot; &amp; sm &amp; &quot; dm: &quot; &amp; dm &amp; &quot; nm: &quot; &amp; m &amp; &quot; km: &quot; &amp; km" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

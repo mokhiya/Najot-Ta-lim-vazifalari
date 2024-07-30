@@ -1,0 +1,103 @@
+[
+    {
+        "full_name": "Mohi",
+        "email": "mohi@gmail.com",
+        "password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+        "is_login": false,
+        "posted_houses": [
+            {
+                "house_name": "Cozy",
+                "house_rooms": "3",
+                "house_address": "Ses3",
+                "house_location": "Tashkent"
+            }
+        ]
+    },
+    {
+        "full_name": "Lola",
+        "email": "lola@gmail.com",
+        "password": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+        "is_login": false,
+        "posted_houses": []
+    },
+    {
+        "full_name": "Kola",
+        "email": "kola@gmail.com",
+        "password": "785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Mol",
+        "email": "mol@gmail.com",
+        "password": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "55",
+        "email": "5@gmail.com",
+        "password": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Lola",
+        "email": "lola@gmail.com",
+        "password": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Moli",
+        "email": "m@gmail.com",
+        "password": "f1534392279bddbf9d43dde8701cb5be14b82f76ec6607bf8d6ad557f60f304e",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "L",
+        "email": "l@gmail.com",
+        "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Sanjnarbek",
+        "email": "Sanjarbek@gmail.com",
+        "password": "bd8b02b64c499e606e80a025be4d72452c8d3cc5e9a388389a0893d9e88790b3",
+        "is_login": false,
+        "posted_houses": []
+    },
+    {
+        "full_name": "Mohi",
+        "email": "mohi@gmail.com",
+        "password": "07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0",
+        "is_login": false,
+        "posted_houses": []
+    },
+    {
+        "full_name": "Jibril",
+        "email": "jibril@gmail.com",
+        "password": "07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0",
+        "is_login": false,
+        "posted_houses": [
+            {
+                "house_name": "Jannah",
+                "house_rooms": "5",
+                "house_address": "Heaven",
+                "house_location": "Heaven",
+                "comments": [
+                    {
+                        "renter_email": "mohi@gmail.com",
+                        "comment": "i want to go there"
+                    },
+                    {
+                        "renter_email": "mohi@gmail.com",
+                        "comment": "i love here"
+                    }
+                ]
+            }
+        ]
+    }
+]

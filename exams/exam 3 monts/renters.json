@@ -1,0 +1,37 @@
+[
+    {
+        "full_name": "Sanjarbek",
+        "email": "sanjarbek@gmail.com",
+        "password": "bd8b02b64c499e606e80a025be4d72452c8d3cc5e9a388389a0893d9e88790b3",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Mohiya",
+        "email": "mohiya@gmail.com",
+        "password": "938db8c9f82c8cb58d3f3ef4fd250036a48d26a712753d2fde5abd03a85cabf4",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Lola",
+        "email": "lola@gmail.com",
+        "password": "07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Lolajon",
+        "email": "lol@gmail.com",
+        "password": "07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0",
+        "is_login": false,
+        "rented_houses": []
+    },
+    {
+        "full_name": "Mohi",
+        "email": "mohi@gmail.com",
+        "password": "07334386287751ba02a4588c1a0875dbd074a61bd9e6ab7c48d244eacd0c99e0",
+        "is_login": false,
+        "rented_houses": []
+    }
+]

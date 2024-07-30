@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-05-16 08:02:04 "/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwNzo0MjozNyAiOzI5NjA="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtN085U1VVTDsyMDI0LTA1LTE2OyIwODowMjowNCAiOzE7MzA1OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="String" array="False" size=""/>
+            <declare name="digit, i, j, counter" type="Integer" array="False" size=""/>
+            <declare name="digits" type="Integer" array="True" size="10"/>
+            <output expression="&quot;Enter a natural number: &quot;" newline="True"/>
+            <input variable="number"/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <assign variable="counter" expression="0"/>
+                <for variable="j" start="0" end="len(number) - 1" direction="inc" step="1">
+                    <assign variable="digit" expression="ToNumber(SubString(number, j, 1))"/>
+                    <if expression="digit == i">
+                        <then>
+                            <assign variable="counter" expression="counter + 1"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+                <if expression="counter &gt; 0">
+                    <then>
+                        <output expression="&quot;Digit &quot; &amp; ToString(i) &amp; &quot; occurs &quot; &amp; ToString(counter) &amp; &quot; time(s)&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
